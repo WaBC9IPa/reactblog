@@ -1,0 +1,19 @@
+
+ul.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in;
+}
+
+ul.nav li a:hover {
+    background-color: #2a5fff;
+}

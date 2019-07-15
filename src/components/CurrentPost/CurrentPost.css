@@ -1,0 +1,127 @@
+/* content */
+
+.currentPost {
+    padding: 1rem 2rem;
+}
+
+.content {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    padding: 0.5rem 1rem;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+hr {
+    margin-bottom: 1.5rem;
+}
+
+/* *** */
+
+/* buttons */
+
+.button {
+    padding: 0.5rem 1rem;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.danger {
+    background-color: #c71134;
+    color: white;
+}
+
+.danger:hover {
+    background-color: #eb1540;
+}
+
+.warning {
+    background-color: #c98210;
+    color: white;
+}
+
+.warning:hover {
+    background-color: #e3900b;
+}
+
+/* *** */
+
+/* comments */
+
+.comments textarea {
+    width: 100%;
+    resize: none;
+}
+
+.comments button {
+    padding: 0.5rem 1rem;
+    background: #14a5ff;
+    color: white;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.comments button:hover {
+    background-color: #2a5fff;
+    cursor: pointer;
+}
+
+.addComment {
+    padding: 1rem 0;
+}
+
+.red {
+    color: red;
+}
+
+.comment {
+    border: 1px solid #999;
+    padding: 0.5rem 1rem; 
+    margin: 0.25rem 0;
+}
+
+.comment .number {
+    font-size: 0.5rem;
+    color: #444;
+}
+
+
+/* *** */
+
+/* queries */
+
+@media (max-width: 500px) {
+    .content h2 {
+        font-size: 1rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .button {
+        padding: 0.2rem 0.4rem;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .content h2 {
+        font-size: 0.8rem;
+    }
+
+    .content p {
+        font-size: 0.6rem;
+    }
+
+    .button {
+        padding: 0.1rem 0.2rem;
+    }
+
+}

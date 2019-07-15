@@ -1,0 +1,16 @@
+.header {
+    background-color: #14a5ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+}

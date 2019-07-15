@@ -1,0 +1,48 @@
+/* heading of the posts page */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button a {
+    background-color: #ff25ff;
+    display: block;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.button a:hover {
+    cursor: pointer;
+    background-color: #ff87f3;
+    color: #333;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+
+.info {
+    padding: 0.5rem 1rem;
+}
+
+/* *** */
+
+/* posts */
+
+.posts {
+    width: 80%;
+    margin: auto;
+}
+
+/* *** */

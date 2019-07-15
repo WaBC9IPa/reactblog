@@ -1,0 +1,41 @@
+/* general */
+
+.heading {
+    margin: 0;
+    padding: 1rem 1rem;
+}
+
+.red {
+    color: #FF0000;
+}
+
+/* *** */
+
+/* form */
+
+.formGroup {
+    margin: auto;
+    padding: 0.5rem 1rem;
+}
+
+.formGroup input, .formGroup textarea {
+    width: 100%;
+    resize: none;
+}
+
+.formGroup button {
+    float: right;
+    padding: 0.5rem 1rem;
+    background-color: #42f575;
+    transition: background-color 0.2s ease-in;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.formGroup button:hover {
+    background-color: #28d458;
+    cursor: pointer;
+}
+
+/* *** */
